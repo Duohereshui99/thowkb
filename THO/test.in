@@ -1,0 +1,13 @@
+#---------------input file for THO---------------------
+&systems  z_1=81d0 z_2=2d0 
+          mass_1=205 mass_2=4 L=5 /
+
+#------actually nbasis should be equal to n_basis+1
+
+&lst  gamma=1.5 m=4 b=2.5 n_basis=14 /
+
+&gaussianpot  v0=162.3d0 r0=7.234 a=0.4 /
+
+&meshes  n_int=300 n_diff=2000 hcm=0.1 /
+
+
